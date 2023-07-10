@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: settings.site,
+  site: 'https://mscerts.github.io',
   integrations: [sitemap()],
   vite: {
     ssr: {
