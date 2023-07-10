@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Page.astro'
+import Container from '../components/Container.astro';
+
+const seo = {
+  title: 'Microsoft Certifications',
+  description: 'Microsoft Certifications',
+}
+---
+
+<style>
+  .hero__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+  }
+</style>
+
+<Layout seo={seo}>
+  <Container narrow>
+    <article class="hero__article">
+      <h1 class="fade-in">Work In Progress</h1><br>
+      <p class="fade-in">Visit the guide or join our Discord!</p>
+    </article>
+  </Container>
+</Layout>
+
